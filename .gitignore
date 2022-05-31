@@ -1,0 +1,67 @@
+*.rbc
+capybara-*.html
+/log
+/tmp
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/public/system
+/public/uploads
+/coverage/
+/spec/tmp
+
+#/config/application.yml
+
+# Environment normalization:
+/.bundle
+/vendor/bundle
+
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+.rvmrc
+
+# Ignore all documentation files. They can be generated using YARD locally if
+# desired: type 'yard' on the command line, in the project root directory.
+/doc
+/.yardoc
+
+# Ignore all RubyMine specific files.
+# Feel free to remove this if you are not using RubyMine as your IDE.
+/.idea
+
+# if using bower-rails ignore default bower_components path bower.json files
+/vendor/assets/bower_components
+*.bowerrc
+bower.json
+
+# Ignore pow environment settings
+.powenv
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# Ignore all OS X specific .DS_Store files.
+**/*.DS_Store
+
+# Redis dump file
+/dump.rdb
+/public/packs
+/public/packs-test
+/node_modules
+/public/assets
+
+.env
+.generators
+.rakeTasks
+
+/public/packs
+/public/packs-test
+/node_modules
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+
+/config/master.key
+/config/database.yml
+/config/credentials.yml.enc
+
+#db backups
+/public/db_backups/
