@@ -1,0 +1,20 @@
+<table>
+  <thead>
+    <tr>
+      <th>Unique number</th>
+      <th>Principal</th>
+      <th>Annual rate</th>
+      <th>Interest</th>
+    </tr>
+  </thead>
+  <tbody>
+    <%- @loans.each do |loan| %>
+      <tr>
+        <td><%= loan.uniq_number %></td>
+        <td><%= loan.principal %></td>
+        <td><%= loan.annual_rate %></td>
+        <td><%= loan.interest %></td>
+      </tr>
+    <%- end %>
+  </tbody>
+</table>
