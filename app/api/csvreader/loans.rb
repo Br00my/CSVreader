@@ -1,10 +1,9 @@
 class Csvreader::Loans < Grape::API
   desc 'Read csv file'
   params do
-    requires :file, type: Rack::Multipart::UploadedFile
+    requires :file, type: File
   end
   post 'loans/upload' do
-    binding.pry
     result = Loans::Upload::Organize.call(file: params[:file])
 
     if result.success?

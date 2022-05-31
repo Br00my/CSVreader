@@ -3,6 +3,6 @@ class Loans::Upload::LogFile
 
   def call
     logger = Logger.new("#{Rails.root}/log/file-processed.log")
-    logger.error("#{context.original_filename} at #{Time.now}")
+    logger.error("#{context.file[:filename]} at #{Time.now}")
   end
 end
