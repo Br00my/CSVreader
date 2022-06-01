@@ -3,8 +3,8 @@
 1. Implement endpoint that will get csv file in base64 and process it.
 
 File structure:
-| Unique | number | Principal | Annual rate |
-| :---: | :---: | :---: | :---: |
+| Unique number | Principal | Annual rate |
+| :---: | :---: | :---: |
 | L13052021/0006 | 200 000 | 12% |
 | L13052021/0007 | 300 000 | 56% |
 | L13052021/0008 | 400 000 | 83% |
