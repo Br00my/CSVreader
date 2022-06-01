@@ -1,4 +1,4 @@
-# README
+# Test assignment for the position of Middle Ruby on Rails developer in the Jetfin company
 
 1. Implement endpoint that will get csv file in base64 and process it.
 
